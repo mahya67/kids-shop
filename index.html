@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <title>فروشگاه لباس بچگانه</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="فروشگاه لباس بچگانه با قیمت مناسب به صورت آنلاین،لباس نوزادی،پسرانه و دخترانه" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+ <style>
+body {
+  direction: rtl;
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.carousel-inner img{
+  width: 100%;
+  height: 90vh;
+  margin-top: 70px;
+}
+.modal-backdrop{
+  z-index: 1020;
+}
+.close {
+    float: left;
+    margin: -1rem -1rem -1rem 0!important;
+    }
+    .form-check-input {
+    position: absolute;
+    margin-top: 0.3rem;
+    margin-right: 7.75rem;
+    float: left;
+    }
+    label{
+      float: right;
+    }
+    .figure-img{
+      padding-inline-start: 17px;
+    }
+    .footer {
+    height: 100px;
+    background-color: rgb(217, 228, 235);
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .footer i{
+    padding: 8px;
+    color: rgb(71, 121, 121);
+  }
+  @media screen and (max-width: 576px) {
+  
+
+  .navbar{
+    
+    font-size: small;
+    padding: 8px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .navbar-nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    
+    
+    
+  }
+  .nav-item{
+    padding: 5px;
+  }
+  .dropdown{
+  font-size: small;
+  display: flex;
+  
+  
+  }
+  .dropdown-item{
+    padding: 0;
+  }
+  body{
+    background-image: none;
+  }
+  
+  
+  }ن
+  
+   
+ </style>
+  </head>
+<body>
+  <div class="row no-gutters">
+    
+    <nav class="navbar bg-light navbar-expand-sm fixed-top d-flex justify-content-between flex-row-reverse">
+      
+     <a href="index.html" class="navbar-brand d-block" ><img src="img/kidslogo.jpg"></a>
+   
+      <ul class="navbar-nav">
+   
+        <li class="nav-item">
+          <button class="nav-link btn bg-primary text-light" data-toggle="modal" data-target="#modal1">ثبت نام/ورود</button>
+   
+          <div class="modal" id="modal1">
+           <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">ثبت نام</h5>
+                 <button type="button" class=" close " data-dismiss="modal">&times;</button>
+       
+              </div>
+              <div class="modal-body">
+               <div >
+                <form action="">
+                  <div class="form-group">
+                    <label for="email">آدرس ایمیل:</label>
+                    <input type="email" id="email" class="form-control" placeholder="ایمیل خود را وارد نمائید">
+   
+                  </div>
+                  <div class="form-group">
+                   <label for="pass">رمز عبور:</label>
+                   <input type="password" id="pass" class="form-control" placeholder="رمز عبور خود را وارد نمائید">
+                   
+                 </div>
+                 <div class="form-check">
+                   <label class="form-check-label">
+                   <input class="form-check-input" type="checkbox">   مرا به خاطر بسپار!
+                 </label>
+                 </div><br>
+                 <button type="submit" class="btn btn-primary ">تایید</button>
+                  
+                </form>
+   
+               </div>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-info" data-dismiss="modal">بستن</button>
+   
+              </div>
+            </div>
+       
+          </div>
+        </div>
+         </li>
+   
+         
+        
+   
+        <li class="nav-item dropdown">
+         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="dropdownitem" >خرید</a>
+         <div class="dropdown-menu">
+          <a href="index.html" class="dropdown-item ">نوزادی</a>
+          <a href="index.html" class="dropdown-item ">پسرانه</a>
+          <a href="index.html" class="dropdown-item ">دخترانه</a>
+         </div>
+       </li>
+       <li class="nav-item">
+         <a href="sale.html" class="nav-link">فروش ویژه</a>
+       </li><br>
+       <li class="nav-item">
+         <a href="info.html" class="nav-link">تماس با ما</a>
+       </li>
+      
+      </ul>
+    
+   </nav>
+    
+   </div>
+ <div id="d1" class="carousel slide carousel-fade" data-ride="carousel">
+   <ul class="carousel-indicators">
+     <li data-target="#d1" data-slide-to="0" class="active"></li>
+     <li data-target="#d1" data-slide-to="1"></li>
+     <li data-target="#d1" data-slide-to="2"></li>
+   </ul>
+   <div class="carousel-inner">
+     <div class="carousel-item ">
+       <img src="img/boy1.jpg" class="d-block w-100" >
+     </div>
+     <div class="carousel-item active">
+      <img src="img/dokhtar2.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="img/image (1).jpg" class="d-block w-100">
+    </div>
+   </div>
+    <a class="carousel-control-prev" href="#d1" data-slide="prev" >
+      <span class="carousel-control-prev-icon" ></span>
+    </a>
+    <a  class="carousel-control-next" href="#d1" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+
+   </div><br><br>
+  
+
+   <div class="container">
+    <h3 class="text-right"><span class=" badge text-white badge-primary ">جدیدترین محصولات :</span></h3>
+  </div><br>
+  <div class="container-fluid">
+    <div class="row justify-content-around">
+      <div class="card">
+        <img src="img/nozad.jpg" class="card-img-top" width="100%" height="200px">
+      <div class="card-body">
+         <h3 class="card-title"> نوزادی</h3>
+        <p class="card-text">برای خرید پوشاک نوزادی کلیک کنید</p>
+        <a href="" class="btn btn-info">مشاهده و خرید</a>
+    
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/pesar.jpg" class="card-img-top" width="100%" height="200px">
+    <div class="card-body">
+       <h3 class="card-title"> پسرانه</h3>
+      <p class="card-text">برای خرید پوشاک پسرانه کلیک کنید</p>
+      <a href="" class="btn btn-info">مشاهده و خرید</a>
+    
+    </div>
+    </div>
+    <div class="card">
+      <img src="img/dokhtar.jpg" class="card-img-top" width="100%" height="200px">
+    <div class="card-body">
+       <h3 class="card-title"> دخترانه</h3>
+      <p class="card-text">برای خرید پوشاک دخترانه کلیک کنید</p>
+      <a href="" class="btn btn-info">مشاهده و خرید</a>
+    
+    </div>
+    </div>
+    </div><br><br>
+  </div>
+    <div class="container ">
+      <h3 class="text-right"><span class=" badge text-white badge-primary ">پرفروش ترین محصولات :</span></h3>
+    </div><br>
+  
+     <div class="container">
+      <div class="row d-flex justify-content-around">
+        
+        <figure class="figure">
+          <img src="img/2.jpg" width="200px" height="200px"  class="figure-img" alt="...">
+          <figcaption class="figure-caption text-center">پیراهن و شلوار پسرانه</figcaption>
+        </figure>
+    
+    <figure class="figure">
+      <img src="img/1.jpg" width="200px" height="200px"  class="figure-img" alt="...">
+      <figcaption class="figure-caption text-center">پیراهن دخترانه</figcaption>
+    </figure>
+     
+     
+    <figure class="figure">
+      <img src="img/4.jpeg" width="200px" height="200px"  class="figure-img" alt="...">
+      <figcaption class="figure-caption text-center">بلوز و سرهمی نوزادی</figcaption>
+    </figure>
+    
+    <figure class="figure">
+      <img src="img/5.jpg" width="200px" height="200px"  class="figure-img" alt="...">
+      <figcaption class="figure-caption text-center">سارافون دخترانه</figcaption>
+    </figure>
+     
+    
+    <figure class="figure">
+      <img src="img/3.jpg" width="200px" height="200px"  class="figure-img" alt="...">
+      <figcaption class="figure-caption text-center">تاپ و شلوارک دخترانه</figcaption>
+    </figure>
+      
+  </div>
+  </div>
+
+
+  <div class="footer">
+    <i class="fab fa-instagram "></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-linkedin"></i>
+    <i class="fas fa-phone"></i>
+    <i class="fab fa-whatsapp"></i>
+  </div>
+    
+
+  
+ 
+</body>
+</html>
